@@ -34,7 +34,7 @@
                 $_SESSION['userlastname']  =  $data['userlastname'];
 
                if($data && password_verify($uspa,$data['userpassword'])) {
-               header('location:lius.php'); //for passowrd matchin hash
+               header('location:dabo.php'); //for passowrd matchin hash
                exit();
                }else{
                 echo"email password wrong";
